@@ -18,6 +18,14 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        // instantiate/create a class in memory aka obj --- call constructor (indicator -> "new")
+        // Aside: obj class could be of a different class file in same directory to this one
+        Lab referenceVar= new Lab();
+
+        // return the reference variable 
+        // could use dot notation to access 'referenceVar' properties: 
+        // instance variables (fields/states)
+        // instance methods (behaviors)
+        return referenceVar;
     }
 }
